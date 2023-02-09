@@ -1,0 +1,23 @@
+[
+    {
+        "title": "monday",
+        "post": "project management",
+        "user_id": "11"
+    },
+    {
+        "title": "tuesday",
+        "post": "html tutorial",
+        "user_id": "12"
+    },
+    {
+        "title": "wednesday",
+        "post": "java script",
+        "user_id": "13"
+    },
+    {
+        "title": "thurday",
+        "post": "mysql2",
+        "user_id": "14"
+    }
+
+]

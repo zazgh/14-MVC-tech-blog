@@ -1,0 +1,19 @@
+<h1>Welcome back, {{username}}!</h1>
+<h2>Add a new Post</h2>
+<form id="new-post-form">
+    Title:
+    <textarea id="title-input"></textarea>
+    Content:
+    <textarea id="post-input"></textarea>
+    <button>Submit</button>
+</form>
+<h2>My Posts</h2>
+<br>
+{{#each posts}}
+<section class="post-box">
+    <h3>{{title}}</h3>
+    <p>{{post}}</p>
+</section>
+{{/each}}
+
+<script src="/js/post.js"></script>

@@ -34,7 +34,7 @@ User.init({
         type:DataTypes.STRING,
         allowNull:false,
         validate:{
-            len:[1] // TODO change to 8 characters before submitting
+            len:[1] 
         }
     }
 },

@@ -28,7 +28,7 @@ Post.init(
       allowNull: false,
       unique: false,
       validate: {
-        len: [6],
+        len: [1],
       },
     },
 

@@ -3,7 +3,7 @@ const sequelize = require("../config/connection");
 const bcrypt = require("bcrypt");
 
 class Post extends Model {}
-
+ 
 Post.init(
   {
     // add properites here, ex:
